@@ -1,0 +1,18 @@
+@media (max-width: 767px) {
+    .sidebar {
+        width: 65px;
+        padding: 10px;
+    }
+    .sidebar ul li a span {
+        display: none;
+    }
+    .sidebar > h3 {
+        font-size: 12.5px;
+        margin-bottom: 15px;
+        left: -7px;
+    }
+    .sidebar > h3::before,
+    .sidebar > h3::after {
+        display: none;
+    }
+}
